@@ -12,12 +12,12 @@ with-rust-crypto = ["rust-crypto"]
 [dependencies]
 "bitflags" = "0.4"    # MIT/Apache-2.0
 "byteorder" = "0.4"   # Unlicense/MIT
-"ioctl" = { path = "../../ioctl" }
 "libc" = "0.2"        # MIT/Apache-2.0
 "openssl" = "0.7.7"   # Apache-2.0
 "sgx-isa" = "0.1"     # MIT/Apache-2.0
 "time" = "0.1"        # MIT/Apache-2.0
-"pkg-config" = "0.3.8"
+"ioctl" = { path = "../../ioctl" }
+"pkg-config" = { path = "../../pkg-config-rs" }
 
 [dependencies.rust-crypto]  # MIT/Apache-2.0
 version = "0.2"
