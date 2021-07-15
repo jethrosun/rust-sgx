@@ -16,8 +16,8 @@ with-rust-crypto = ["rust-crypto"]
 "openssl" = "0.7.7"   # Apache-2.0
 "sgx-isa" = "0.1"     # MIT/Apache-2.0
 "time" = "0.1"        # MIT/Apache-2.0
-"ioctl" = "=0.3.3"
-"pkg-config" = "=0.3.8"
+"ioctl" = { path = "../../ioctl" }
+pkg-config" = "=0.3.8"
 
 [dependencies.rust-crypto]  # MIT/Apache-2.0
 version = "0.2"
