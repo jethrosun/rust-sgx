@@ -1,0 +1,5 @@
+  [source.crates-io]
+  registry = "file:///home/jethros/dev/others/crates-io-rewound"
+
+  [term]
+  color = 'auto'
