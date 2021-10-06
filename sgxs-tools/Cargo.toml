@@ -11,14 +11,13 @@ with-rust-crypto = ["sgxs/rust-crypto"]
 
 [dependencies]
 sgxs = { path = "../sgxs" }
-libc = "=0.2"        # MIT/Apache-2.0
-broadcast = "0.1"   # MIT
-lazy_static = "=0.2" # MIT
-pe = "0.1"          # GPL-2.0+
-clap = "=2.21.1"             # MIT
-regex = "0.1"       # MIT/Apache-2.0
 sgx-isa = "0.1.2"   # MIT/Apache-2.0
-num = "0.1.31"      # MIT/Apache-2.0
+libc = "=0.2"        # MIT/Apache-2.0
+broadcast = "=0.1"   # MIT
+lazy_static = "=0.2" # MIT
+pe = "=0.1"          # GPL-2.0+
+regex = "=0.1"       # MIT/Apache-2.0
+num = "=0.1"      # MIT/Apache-2.0
 unicode-segmentation = "=1.2.0"
+clap = "=2.21.1"             # MIT
 atty = "=0.2.6"
-
