@@ -7,7 +7,7 @@ license = "GPL-2.0+"
 repository = "https://github.com/jethrogb/sgx-utils/tree/master/enclave-interface"
 
 [dependencies]
-sgxs = "0.5.0"
-"sgx-isa" = "0.1.0"
-lazy_static = "0.2.0" # MIT
-libc = "0.2.10"       # MIT/Apache-2.0
+sgxs = { path = "../sgxs" }
+sgx-isa = "0.1.0"
+lazy_static = "=0.2" # MIT
+libc = "=0.2"       # MIT/Apache-2.0
